@@ -26,15 +26,11 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_home, container, false);
 
         //url="https://www.youtube.com/@sfarinas/videos";
-        //url="https://bxctv.net";
-        //url="https://www.twitch.tv/popout/jogandojuntox11/chat?popout=";
         url="https://www.twitch.tv/jogandojuntox11";
-
 
         webCanal = view.findViewById(R.id.webHome);
         webCanal.loadUrl(url);

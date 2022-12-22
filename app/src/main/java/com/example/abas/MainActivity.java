@@ -9,6 +9,7 @@ import android.webkit.WebView;
 import com.example.abas.Fragment.EmAltaFragment;
 import com.example.abas.Fragment.HomeFragment;
 import com.example.abas.Fragment.InscricoesFragment;
+import com.example.abas.Fragment.NovaFragment;
 import com.ogaclejapan.smarttablayout.SmartTabLayout;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                         .add("Home", HomeFragment.class )
                         .add("chat", InscricoesFragment.class )
                         .add("Em alta", EmAltaFragment.class )
+                        .add("Nova", NovaFragment.class)
                         .create()
 
         );
